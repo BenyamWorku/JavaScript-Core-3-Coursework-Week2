@@ -18,7 +18,6 @@ a different greeting should be displayed in the box.
 */
 const API_URL ="https://codeyourfuture.herokuapp.com/api/greetings"
 const greetingEl = document.getElementsByTagName('p')[0];
-console.log(greetingEl);
 fetch(API_URL)
     .then(function (response) {
         return response.text();

@@ -1,0 +1,13 @@
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+img{
+border:2px solid blue;
+margin:2px;
+padding:5px;
+background-color: red;
+animation-name: example;
+animation-duration: 4s;
+}
