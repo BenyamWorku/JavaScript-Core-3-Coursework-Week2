@@ -6,5 +6,5 @@ fetch("https://xkcd.now.sh/?comic=latest")
         imgeEl.setAttribute('src', data.img);
         imgeEl.setAttribute('alt', data.alt);
     })
-    .catch((err) => console.log(err));
+    .catch((err) => console.error(err));
 

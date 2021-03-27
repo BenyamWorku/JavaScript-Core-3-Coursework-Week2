@@ -1,0 +1,28 @@
+*{
+    box-sizing:border-box;
+}
+
+button{
+    background-color:orange;
+    color:blue;
+    height:50px;
+    width:100px;
+    position:sticky;
+    top:10px;
+    bottom:auto;
+}
+
+li{
+    list-style:none;
+}
+
+.list-wrapper > ul{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+img{
+    width:200px;
+    height:auto;
+    margin:25px;
+}
